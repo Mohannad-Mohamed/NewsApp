@@ -25,7 +25,7 @@ class CategoryView extends StatelessWidget {
           physics: const BouncingScrollPhysics(),
           slivers: [
             const SliverToBoxAdapter(
-              child: CategoriesListView(), // Keeps the categories list view at the top
+              child: CategoriesListView(),
             ),
             const SliverToBoxAdapter(
               child: SizedBox(

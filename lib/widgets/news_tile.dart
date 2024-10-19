@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:news_app_ui_setup/models/article_model.dart';
 import 'package:url_launcher/url_launcher.dart'; // For launching URLs
-// For using string URLs directly
+
 
 // Cached network image
 class NewsTile extends StatelessWidget {
